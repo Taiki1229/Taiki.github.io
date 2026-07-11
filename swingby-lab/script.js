@@ -7,6 +7,7 @@ const processIcons=[
 ];
 document.querySelectorAll('.line-icon').forEach((icon,index)=>{icon.innerHTML=processIcons[index];});
 const videoThumbnails=document.querySelectorAll('.videos article img');
+videoThumbnails[0].src='assets/lifestyle-surfing.png';
 videoThumbnails[1].src='assets/youtube-island.png';
 videoThumbnails[2].src='assets/youtube-motorcycle-city.png';
 const valueIcons=document.querySelectorAll('.value-card img');
@@ -15,6 +16,7 @@ valueIcons[1].src='assets/vision-transparent.png';
 const lifestyleImages=document.querySelectorAll('.lifestyle-grid article img');
 lifestyleImages[0].src='assets/mobility-reference.png';
 lifestyleImages[1].src='assets/travel-reference.png';
+lifestyleImages[2].src='assets/lifestyle-surfing.png';
 const lifestyleIcons=[
   '<svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="16" cy="47" r="7"/><circle cx="48" cy="47" r="7"/><path d="M16 47h10l9-20h8l5 12H31l-8-14h12M35 27l-6-9h-9"/></svg>',
   '<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M4 34l25-6 12-18 5 2-5 18 18 8-2 5-19-4-12 13-5-2 7-15-23 4Z"/></svg>',
