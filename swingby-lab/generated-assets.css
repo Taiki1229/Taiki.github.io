@@ -35,6 +35,9 @@
 
 .episode-cta-wrap{overflow:hidden;background:linear-gradient(90deg,rgba(2,12,31,.88),rgba(3,24,60,.38)),url('assets/episode-cta-space.png') center/cover}.episode-cta-wrap .latest-episode{border:0;background:linear-gradient(180deg,rgba(2,13,30,.16),rgba(2,15,35,.03))}.episode-cta-wrap .latest-episode::after{display:none}.episode-cta-wrap .compact-join{border:0;background:linear-gradient(180deg,rgba(2,15,35,.02),rgba(2,16,42,.27))}
 
+@media (min-width:841px){.episode-cta-wrap{background-size:100% 100%;background-position:center}.about{height:auto;min-height:650px;padding-bottom:72px}.about-text{padding-bottom:24px}.mission-vision{margin-top:0}}
+@media (max-width:840px){.episode-cta-wrap{background-size:cover;background-position:68% center}}
+
 @media (max-width:390px){
   .hero h1{font-size:33px}.hero-actions{grid-template-columns:1fr}.hero{height:670px}.shooting-star{left:48%;top:187px}.value-card{gap:10px}.value-card img{width:94px;height:94px;flex-basis:94px}.value-card h3{font-size:16px}.value-card p{font-size:9px}.join h2{font-size:21px}
 }
