@@ -1,5 +1,6 @@
 document.querySelectorAll('a[href^="#"]').forEach(link=>link.addEventListener('click',event=>{const target=document.querySelector(link.getAttribute('href'));if(target){event.preventDefault();target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});}}));
-document.querySelector('.daily img').src='assets/daily.png';
+const dailyImage=document.querySelector('.daily img');
+if(dailyImage){dailyImage.src='assets/daily.png'}
 const processIcons=[
   '<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M23 45h18M25 52h14M22 35c-4-3-6-8-6-13a16 16 0 0 1 32 0c0 5-2 10-6 13-2 3-3 6-3 8H25c0-2-1-5-3-8Z"/><path d="M32 2v7M12 10l5 5M52 10l-5 5M3 29h8M53 29h8"/></svg>',
   '<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M25 5h14M29 5v18L13 48a8 8 0 0 0 7 11h24a8 8 0 0 0 7-11L35 23V5"/><path d="M19 43h26M24 50h16M40 29l5 5M24 29l-4 4"/></svg>',
@@ -7,16 +8,16 @@ const processIcons=[
 ];
 document.querySelectorAll('.line-icon').forEach((icon,index)=>{icon.innerHTML=processIcons[index];});
 const videoThumbnails=document.querySelectorAll('.videos article img');
-videoThumbnails[0].src='assets/lifestyle-surfing.png';
-videoThumbnails[1].src='assets/youtube-island.png';
-videoThumbnails[2].src='assets/youtube-motorcycle-city.png';
+if(videoThumbnails[0]){videoThumbnails[0].src='assets/lifestyle-surfing.png'}
+if(videoThumbnails[1]){videoThumbnails[1].src='assets/youtube-island.png'}
+if(videoThumbnails[2]){videoThumbnails[2].src='assets/youtube-motorcycle-city.png'}
 const valueIcons=document.querySelectorAll('.value-card img');
 valueIcons[0].src='assets/mission-transparent.png';
 valueIcons[1].src='assets/vision-transparent.png';
 const lifestyleImages=document.querySelectorAll('.lifestyle-grid article img');
-lifestyleImages[0].src='assets/mobility-reference.png';
-lifestyleImages[1].src='assets/travel-reference.png';
-lifestyleImages[2].src='assets/lifestyle-surfing.png';
+if(lifestyleImages[0]){lifestyleImages[0].src='assets/mobility-reference.png'}
+if(lifestyleImages[1]){lifestyleImages[1].src='assets/travel-reference.png'}
+if(lifestyleImages[2]){lifestyleImages[2].src='assets/lifestyle-surfing.png'}
 const lifestyleIcons=[
   '<svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="16" cy="47" r="7"/><circle cx="48" cy="47" r="7"/><path d="M16 47h10l9-20h8l5 12H31l-8-14h12M35 27l-6-9h-9"/></svg>',
   '<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M4 34l25-6 12-18 5 2-5 18 18 8-2 5-19-4-12 13-5-2 7-15-23 4Z"/></svg>',
