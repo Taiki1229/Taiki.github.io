@@ -38,6 +38,8 @@
 @media (min-width:841px){.episode-cta-wrap{background-size:100% 100%;background-position:center}.about{height:auto;min-height:650px;padding-bottom:72px}.about-text{padding-bottom:24px}.mission-vision{margin-top:0}}
 @media (max-width:840px){.episode-cta-wrap{background-size:cover;background-position:68% center}}
 
+.shooting-star{animation:shooting-star-long 6.4s cubic-bezier(.18,.64,.24,1) infinite;background:#fff;box-shadow:0 0 6px #fff,0 0 17px #5be8ff,0 0 34px #009dff,0 0 52px rgba(0,123,255,.62)}.shooting-star::after{width:124px;height:1px;background:linear-gradient(90deg,transparent 0%,rgba(8,130,255,.03) 18%,rgba(52,207,255,.34) 58%,rgba(226,252,255,1) 100%);filter:drop-shadow(0 0 5px #46dbff)}.shooting-star::before{inset:-10px;background:radial-gradient(circle,rgba(255,255,255,.95) 0%,rgba(65,221,255,.42) 29%,rgba(0,133,255,.08) 58%,transparent 75%);animation:star-sparkle .75s ease-out infinite}@keyframes shooting-star-long{0%,20%{opacity:0;transform:translate(-26px,8px) scale(.2)}23%{opacity:1;transform:translate(0,0) scale(.82)}25%{opacity:1;transform:translate(10px,-3px) scale(1.25)}28%{opacity:1;transform:translate(24px,-7px) scale(.95)}47%{opacity:1;transform:translate(385px,-83px) scale(1)}51%,100%{opacity:0;transform:translate(438px,-95px) scale(.35)}}@keyframes star-sparkle{0%{transform:scale(.42);opacity:.2}42%{transform:scale(1.45);opacity:1}100%{transform:scale(2.1);opacity:0}}
+
 @media (max-width:390px){
   .hero h1{font-size:33px}.hero-actions{grid-template-columns:1fr}.hero{height:670px}.shooting-star{left:48%;top:187px}.value-card{gap:10px}.value-card img{width:94px;height:94px;flex-basis:94px}.value-card h3{font-size:16px}.value-card p{font-size:9px}.join h2{font-size:21px}
 }
