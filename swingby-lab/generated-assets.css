@@ -47,6 +47,8 @@
   .episode-inner{max-width:1280px;grid-template-columns:530px 1fr;gap:55px;padding:43px 5px}.episode-media img{height:232px}.episode-copy h2{font-size:33px}.episode-copy p{font-size:13px}.compact-join{min-height:164px}.compact-join h2{font-size:30px}.compact-join p{font-size:13px}.footer-main{max-width:1280px;gap:72px;padding-top:37px}
 }
 
+.adventure-grid b svg{width:29px;height:29px;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;display:block}
+
 @media (max-width:390px){
   .hero h1{font-size:33px}.hero-actions{grid-template-columns:1fr}.hero{height:670px}.shooting-star{left:48%;top:187px}.value-card{gap:10px}.value-card img{width:94px;height:94px;flex-basis:94px}.value-card h3{font-size:16px}.value-card p{font-size:9px}.join h2{font-size:21px}
 }
